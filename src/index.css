@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "DexaPro Regular";
+  src:url("./assets/fonts/dexapro-400.otf") format("opentype");
+}
+@font-face {
+  font-family: "DexaPro Medium";
+  src:url("./assets/fonts/dexapro-600.otf") format("opentype");
+}
+@font-face {
+  font-family: "DexaPro Bold";
+  src:url("./assets/fonts/dexapro-700.otf") format("opentype");
+}
+
+:root{
+  --react-lightblue: #00ccff;
+  --react-darkblue: #086ea4;
+  --off-white: #f6f7f9;
+  --light-black:#23272f;
+  --dark-black:#1a1c22;
+}
+
+* {
+
+  font-family:'DexaPro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.main-container{
+  background-color: var(--light-black);
+  position: relative;
+}
+
+.main-heading{
+  color: var(--react-lightblue);
+  font-family:'DexaPro Bold', sans-serif;
+}
+
+.button{
+  background-color: var(--react-lightblue);
+  
+}
+
+.prev-button, .next-button{
+  background-color: var(--react-lightblue);
+  padding: 4px 15px;
+  border-radius: 50px;
+  margin: 0 3rem;
+}
+
+.next-prev-div{
+position: absolute;
+bottom: 2rem;
+left: 2rem;
+
+}
+
+/* navbar.js -> Menu */
+
+.nav-elements{
+  background-color: var(--react-lightblue);
+  color: var(--dark-black);
+}
